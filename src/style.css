@@ -1,0 +1,103 @@
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 476px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 476px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1340px;
+    max-width: 100%;
+  }
+}
+
+/* NOTE: Not sure why when put this part of css in vue component, it doesnt work */
+/* TODO: check & fix the problem */
+.itinerary-swiper-container .swiper-button-next,
+.itinerary-swiper-container .swiper-button-prev {
+  padding: 8px;
+  width: 48px;
+  height: 32px;
+  margin-top: 0;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.itinerary-swiper-container .swiper-button-prev::after {
+  color: #111;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.itinerary-swiper-container .swiper-button-next::after {
+  color: #111;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.itinerary-swiper-container .swiper-button-prev {
+  transform: translate(-50%, -50%);
+  left: 0px;
+}
+
+.itinerary-swiper-container .swiper-button-next {
+  transform: translate(50%, -50%);
+  right: 0px;
+}
